@@ -1,0 +1,19 @@
+body {
+    min-height: 100vh;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+div.image::before {
+    content: url("Hallway_with_a_statue_of_the_Venus_de_Milo.jpg");
+}
+
+.img-container {
+    width: 500px;
+}
+
+.form-container {
+
+}

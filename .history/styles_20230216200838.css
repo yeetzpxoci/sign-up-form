@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #292929;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    background-image: url("https://i.redd.it/pcr1rhuq5zk71.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.img-container p {
+    position: absolute;
+    bottom: 16px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0,0.5);
+    height: 200px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    width: 100%;
+    padding-top: 192px;
+    padding-bottom: 96px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.input-wrapper label{
+    display: block;
+}
+
+.input-wrapper input {
+    border: solid;
+    border-radius: 4px;
+    border-color: #dfdfdf;
+    border-width: 2px;
+}
+
+.info-container p {
+    margin-left: 32px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #505050;
+    box-shadow: 0 4px 4px rgb(0, 0, 0, 0.3);
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+.input-field p {
+    font-size: 32px;
+}
+
+.inputs {
+    display: flex;
+    gap: 32px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+form p {
+    font-size: 32px;
+    margin-left: 32px;
+    margin-top: 32  px;
+}
+
+.bottom {
+    
+}
+
+.create-account {
+    margin: 32px;
+    width: 96px;
+    height: 48px;
+}
+

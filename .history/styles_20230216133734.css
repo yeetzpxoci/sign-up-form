@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    background-color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-image: url("https://i.redd.it/pcr1rhuq5zk71.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-container p {
+    position: absolute;
+    bottom: 0px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0,0.5);
+    height: 20%;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}

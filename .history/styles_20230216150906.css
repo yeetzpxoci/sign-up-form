@@ -1,0 +1,94 @@
+body {
+    min-height: 100vh;
+    background-color: #292929;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+        font-family: 'Roboto', sans-serif;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-image: url("https://i.redd.it/pcr1rhuq5zk71.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.img-container p {
+    position: absolute;
+    bottom: 0px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0,0.5);
+    height: 200px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 400px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.input-wrapper label{
+    display: block;
+}
+
+.info-container p {
+    margin-left: 32px;
+}
+
+.input-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: -48px;
+    gap: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.input-field p {
+    font-size: 32px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+.bottom {
+    background-color: #f5f5f5;
+    width: 100%;
+}

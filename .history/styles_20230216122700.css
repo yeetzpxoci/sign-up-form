@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container {
+    width: 100rem;
+}
+
+.form-container {
+
+}

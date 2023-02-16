@@ -1,0 +1,31 @@
+body {
+    min-height: 100vh;
+    background-color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container {
+    display: flex;
+    width: 500px;
+    background-image: url("https: //c4.wallpaperflare.com/wallpaper/918/982/359/crime-drama-fbi-horror-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0,0.5);
+    height: 20%;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.form-container {
+
+}
